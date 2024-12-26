@@ -53,11 +53,11 @@ window.addEventListener("load", function ()
   }
 
   var buildUrl = "Build";
-  var loaderUrl = buildUrl + "/Build6.loader.js";
+  var loaderUrl = buildUrl + "/BuildDev.loader.js";
   var config = {
-    dataUrl: buildUrl + "/Build6.data.unityweb",
-    frameworkUrl: buildUrl + "/Build6.framework.js.unityweb",
-    codeUrl: buildUrl + "/Build6.wasm.unityweb",
+    dataUrl: buildUrl + "/BuildDev.data.unityweb",
+    frameworkUrl: buildUrl + "/BuildDev.framework.js.unityweb",
+    codeUrl: buildUrl + "/BuildDev.wasm.unityweb",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
     productName: "Archery",
@@ -81,7 +81,7 @@ window.addEventListener("load", function ()
     document.getElementsByTagName('head')[0].appendChild(meta);
   }
 
-  canvas.style.background = "url('" + buildUrl + "/Build6.jpg') center / cover";
+  canvas.style.background = "url('" + buildUrl + "/BuildDev.jpg') center / cover";
   loadingBar.style.display = "block";
 
   var script = document.createElement("script");
